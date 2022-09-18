@@ -1,0 +1,40 @@
+
+
+	FOR
+
+Se utiliza para incrementar una variable hasta obtener un valor determinado de la misma pudiendo 
+dicho incremento ser cualquier valor, cumple la misma funcion que el antiguo for/next
+con una sintaxis diferente. ejemplo  para un valor de comienzo de i=0 voy a incrementar de a uno
+su valor hasta llegar al valor i=10 y luego no ejecuto mas el loop, habiendo obtenido todos los
+valores desde i=0 hasta i=10
+
+   for ( i=0; i<11 ; i=i+1)
+
+
+	&& 
+
+es la función lógica "AND" o "Y" y es un multiplicador lógico donde ambas condiciones
+deben cumplirse para obtener el resultado deseado Ej, si X=1 "y" Y=2 entonces 
+retorno "puntos de la funcion correctos"
+
+if (x=1 && y=2){ return("puntos de la funcion correctos")}
+
+
+	||
+
+Es la funcion logina "OR" o "O" y es la suma lógica donde si al menos una condición 
+se cumple obtenemos el resultado deseado, ejemplo si X="José" "o" x="María" entonces 
+retornaremos"Persona Habilitada"
+
+if (x="José" || x="María") {return("Persona Habilitada") }
+
+
+	!
+
+El la función "NOT" o "NO" y devuelde un valor booleano opuesto a la expresión que le sigue
+ejemplo si (x=y) devolvería true con !(x=y) devuelve false las funciones AND y OR se convierten
+en NAND y NOR es decir que niegan el resultado, si a=true y b=true en la funcion AND se devolvería
+ true sin embargo en NAND lo cambiará a false, lo mismo con la funcion OR.
+
+
+
